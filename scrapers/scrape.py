@@ -13,9 +13,9 @@ def init():
 	soup = BeautifulSoup(r.text)
 	body = soup.find("div", {"id":"mw-content-text"})
 	tables = soup.findAll("table", {"class":"navbox"})
-	#for table in tables:
-	#	getData(table)
-	getData(tables[2])
+	for table in tables:
+		getData(table)
+	#getData(tables[2])
 
 def getData(table):
 
@@ -26,7 +26,7 @@ def getData(table):
 		"admin": extractPresident(rows[0]),
 		"cabinet": extractCabinet(rows[1:])
 	}
-	# print json.dumps(obj)
+	print json.dumps(obj)
 
 def extractPresident(row):
 	innerDiv = row.find("div", style="font-size:110%;")
@@ -39,7 +39,6 @@ def extractPresident(row):
 		"start": years[:4],
 		"end": years[5:]
 	}
-
 
 def splitYears(arg, which):
 	arg = arg.text.strip(" ()")
@@ -54,10 +53,21 @@ def splitYears(arg, which):
 				return arg[5:]
 
 def getStartYear(arg):
-	return splitYears(arg, 0)
+	s = arg.text
+	startYear = s[s.find("(")+1:s.find(")")][:4]
+	return startYear
 
 def getEndYear(arg):
-	return splitYears(arg, 1)
+	s = arg.text
+	startYear = s[s.find("(")+1:s.find(")")][:4]
+	endYear = s[s.find("(")+1:s.find(")")][5:]
+	if len(endYear) is not 4:
+		if endYear == "present":
+			return "present"
+		if endYear is None:
+			return startYear
+	else:
+		return endYear
 
 def extractCabinet(rows):
 	fullCabinet = []
