@@ -20,22 +20,25 @@ def init():
 
 	#for table in tables:
 	#	print type(json.dumps(getData(table)))
+	data = []
+	for table in tables:
+		data.append(getData(table))
+	print json.dumps(data)
 
-
-
-	print getData(tables[0])[0]
+	#print getData(tables[0])
 
 def getData(table):
 	innerTable = table.find("table", {"class":"navbox-inner"})
 	rows = innerTable.findAll("tr", style="")
 	extractCabinet(rows[1:])
-	tableList = []
+	# tableList = []
 	obj = {
 		"admin": extractPresident(rows[0]),
 		"cabinet": extractCabinet(rows[1:])
 	}
-	tableList.append(obj)
-	return json.dumps(tableList)
+	# tableList.append(obj)
+	# return json.dumps(obj)
+	return obj
 
 def extractPresident(row):
 	innerDiv = row.find("div", style="font-size:110%;")
