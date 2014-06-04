@@ -20,12 +20,15 @@ def init():
 
 	#for table in tables:
 	#	print type(json.dumps(getData(table)))
+
 	data = []
 	for table in tables:
 		data.append(getData(table))
 	print json.dumps(data)
 
-	#print getData(tables[0])
+	#getData(tables[0])
+	#getData(tables[19])
+	#getData(tables[43])
 
 def getData(table):
 	innerTable = table.find("table", {"class":"navbox-inner"})
@@ -42,14 +45,32 @@ def getData(table):
 
 def extractPresident(row):
 	innerDiv = row.find("div", style="font-size:110%;")
-	years = innerDiv.text[-11:].strip("()")
+	headerText = innerDiv.text
 	anchors = innerDiv.findAll("a")
 	return {
 		"name": anchors[-1]["title"],
 		"url": anchors[-1]["href"],
-		"start": years[:4],
-		"end": years[5:]
+		"start": getPrezYears(headerText, 0),
+		"end": getPrezYears(headerText, 1)
 	}
+
+def getPrezYears(text, which):
+	startIndex = text.index("(")
+	endIndex = text.index(")")
+	years = text[startIndex+1:endIndex]
+	digitsOnly = re.compile("\D")
+
+	if bool(digitsOnly.search(years)):
+		if len(years) is 9:
+			if which is 0:
+				return years[:4]
+			if which is 1:
+				return years[5:]
+		else:
+			return re.sub("[^0-9]", "", years)
+	elif len(years) is 4:
+		return years
+
 
 def splitYears(arg, which):
 	arg = arg.text.strip(" ()")
