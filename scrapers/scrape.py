@@ -1,11 +1,15 @@
 #!/usr/bin/python
 
+'''
+LAST UPDATED: June 4, 2014
+BY: Frank Bi
+EMAIL: fbi@newshour.org
+'''
+
 from bs4 import BeautifulSoup
 import simplejson as json
 import requests
 import re
-
-
 
 def init():
 	url = "http://en.wikipedia.org/wiki/List_of_United_States_Cabinets"
@@ -13,25 +17,29 @@ def init():
 	soup = BeautifulSoup(r.text)
 	body = soup.find("div", {"id":"mw-content-text"})
 	tables = soup.findAll("table", {"class":"navbox"})
-	for table in tables:
-		getData(table)
-	#getData(tables[2])
+
+	#for table in tables:
+	#	print type(json.dumps(getData(table)))
+
+
+
+	print getData(tables[0])[0]
 
 def getData(table):
-
 	innerTable = table.find("table", {"class":"navbox-inner"})
 	rows = innerTable.findAll("tr", style="")
 	extractCabinet(rows[1:])
+	tableList = []
 	obj = {
 		"admin": extractPresident(rows[0]),
 		"cabinet": extractCabinet(rows[1:])
 	}
-	print json.dumps(obj)
+	tableList.append(obj)
+	return json.dumps(tableList)
 
 def extractPresident(row):
 	innerDiv = row.find("div", style="font-size:110%;")
 	years = innerDiv.text[-11:].strip("()")
-
 	anchors = innerDiv.findAll("a")
 	return {
 		"name": anchors[-1]["title"],
