@@ -20,7 +20,7 @@ def init():
 	data = []
 	for table in tables:
 		data.append(getData(table))
-	print json.dumps(data)
+	print json.dumps(data, indent=2)
 
 def getData(table):
 	innerTable = table.find("table", {"class":"navbox-inner"})
