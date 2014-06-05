@@ -25,12 +25,21 @@ def init():
 def getData(table):
 	innerTable = table.find("table", {"class":"navbox-inner"})
 	rows = innerTable.findAll("tr", style="")
-	extractCabinet(rows[1:])
-	obj = {
-		"admin": extractPresident(rows[0]),
-		"cabinet": extractCabinet(rows[1:])
-	}
-	return obj
+	tables = innerTable.findAll("table")
+	president = extractPresident(rows[0])
+	if len(tables) is 0:
+		obj = {
+			"admin": president,
+			"cabinet": extractCabinet(rows[1:])
+		}
+		return obj
+	elif len(tables) is 2:
+		rows = tables[0].findAll("tr", style="")
+		obj = {
+			"admin": president,
+			"cabinet": extractCabinet(rows[1:])
+		}
+		return obj
 
 def extractPresident(row):
 	innerDiv = row.find("div", style="font-size:110%;")
@@ -48,7 +57,6 @@ def getPrezYears(text, which):
 	endIndex = text.index(")")
 	years = text[startIndex+1:endIndex]
 	digitsOnly = re.compile("\D")
-
 	if bool(digitsOnly.search(years)):
 		if len(years) is 9:
 			if which is 0:
