@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 '''
-LAST UPDATED: June 4, 2014
+LAST UPDATED: June 5, 2014
 BY: Frank Bi
 EMAIL: fbi@newshour.org
 '''
@@ -17,30 +17,19 @@ def init():
 	soup = BeautifulSoup(r.text)
 	body = soup.find("div", {"id":"mw-content-text"})
 	tables = soup.findAll("table", {"class":"navbox"})
-
-	#for table in tables:
-	#	print type(json.dumps(getData(table)))
-
 	data = []
 	for table in tables:
 		data.append(getData(table))
 	print json.dumps(data)
 
-	#getData(tables[0])
-	#getData(tables[19])
-	#getData(tables[43])
-
 def getData(table):
 	innerTable = table.find("table", {"class":"navbox-inner"})
 	rows = innerTable.findAll("tr", style="")
 	extractCabinet(rows[1:])
-	# tableList = []
 	obj = {
 		"admin": extractPresident(rows[0]),
 		"cabinet": extractCabinet(rows[1:])
 	}
-	# tableList.append(obj)
-	# return json.dumps(obj)
 	return obj
 
 def extractPresident(row):
@@ -67,10 +56,13 @@ def getPrezYears(text, which):
 			if which is 1:
 				return years[5:]
 		else:
-			return re.sub("[^0-9]", "", years)
+			if bool(re.match("since", years)):
+				if which is 0:
+					return re.sub("[^0-9]", "", years)
+				else:
+					return "Current"
 	elif len(years) is 4:
 		return years
-
 
 def splitYears(arg, which):
 	arg = arg.text.strip(" ()")
@@ -95,7 +87,7 @@ def getEndYear(arg):
 	endYear = s[s.find("(")+1:s.find(")")][5:]
 	if len(endYear) is not 4:
 		if endYear == "present":
-			return "present"
+			return "Current"
 		if endYear is None:
 			return startYear
 	else:
