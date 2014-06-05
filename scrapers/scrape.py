@@ -145,9 +145,7 @@ def getDDay(obj):
 		return "ERR"
 
 def getPhoto(obj):
-
 	infoBox = obj.findAll("table", {"class","vcard"})
-
 	if len(infoBox) is 1:
 		imageList = infoBox[0].findAll("a", {"class","image"})
 		if bool(imageList):
