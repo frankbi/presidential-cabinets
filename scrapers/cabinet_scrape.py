@@ -84,22 +84,32 @@ def splitYears(arg, which):
 			if len(arg) is 9:
 				return arg[5:]
 
-def getStartYear(arg):
-	s = arg.text
-	startYear = s[s.find("(")+1:s.find(")")][:4]
-	return startYear
-
-def getEndYear(arg):
-	s = arg.text
-	startYear = s[s.find("(")+1:s.find(")")][:4]
-	endYear = s[s.find("(")+1:s.find(")")][5:]
-	if len(endYear) is not 4:
-		if endYear == "present":
+def getStartEndYears(arg, which):
+	string = arg.text
+	try:
+		startIndex = string.index("(")
+		endIndex = string.index(")")
+	except Exception:
+		return "ERR"
+	years = string[startIndex+1:endIndex]
+	if len(years) is 4:
+		if which is 0:
+			return years
+		elif which is 1:
+			return years
+	elif len(years) is 9:
+		if which is 0:
+			return years[:4]
+		elif which is 1:
+			return years[5:]
+	elif bool(re.search("present", years)):
+		if which is 0:
+			return years[:4]
+		if which is 1:
 			return "Current"
-		if endYear is None:
-			return startYear
 	else:
-		return endYear
+		return "ERR"
+
 
 def extractCabinet(rows):
 	fullCabinet = []
@@ -112,8 +122,8 @@ def extractCabinet(rows):
 					"name": re.sub(r"\([^)]*\)", "", anchor["title"]).strip(),
 					"position": row.find("th", {"scope":"row"}).text,
 					"url": anchor["href"],
-					"start": getStartYear(member),
-					"end": getEndYear(member),
+					"start": getStartEndYears(member, 0),
+					"end": getStartEndYears(member, 1),
 					"personal": getPersonal(anchor["href"])
 				}
 				fullCabinet.append(data)

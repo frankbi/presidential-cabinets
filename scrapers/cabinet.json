@@ -20,7 +20,7 @@
         "position": "Vice President"
       },
       {
-        "end": null,
+        "end": "1789",
         "name": "John Jay",
         "start": "1789",
         "url": "/wiki/John_Jay",
@@ -104,7 +104,7 @@
         "position": "Secretary of War"
       },
       {
-        "end": null,
+        "end": "1795",
         "name": "Timothy Pickering",
         "start": "1795",
         "url": "/wiki/Timothy_Pickering",
@@ -258,7 +258,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1801",
         "name": "Samuel Dexter",
         "start": "1801",
         "url": "/wiki/Samuel_Dexter",
@@ -376,7 +376,7 @@
         "position": "Secretary of State"
       },
       {
-        "end": null,
+        "end": "1801",
         "name": "Samuel Dexter",
         "start": "1801",
         "url": "/wiki/Samuel_Dexter",
@@ -424,7 +424,7 @@
         "position": "Attorney General"
       },
       {
-        "end": null,
+        "end": "1805",
         "name": "Robert Smith",
         "start": "1805",
         "url": "/wiki/Robert_Smith_(Cabinet_member)",
@@ -460,7 +460,7 @@
         "position": "Attorney General"
       },
       {
-        "end": null,
+        "end": "1801",
         "name": "Joseph Habersham",
         "start": "1801",
         "url": "/wiki/Joseph_Habersham",
@@ -484,7 +484,7 @@
         "position": "Postmaster General"
       },
       {
-        "end": null,
+        "end": "1801",
         "name": "Benjamin Stoddert",
         "start": "1801",
         "url": "/wiki/Benjamin_Stoddert",
@@ -554,9 +554,9 @@
         "position": "Secretary of State"
       },
       {
-        "end": null,
+        "end": "ERR",
         "name": "James Monroe",
-        "start": "1811",
+        "start": "ERR",
         "url": "/wiki/James_Monroe",
         "personal": {
           "bday": "1758-04-28",
@@ -578,7 +578,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1814",
         "name": "George W. Campbell",
         "start": "1814",
         "url": "/wiki/George_W._Campbell",
@@ -816,7 +816,7 @@
         "position": "Secretary of War"
       },
       {
-        "end": null,
+        "end": "1817",
         "name": "Richard Rush",
         "start": "1817",
         "url": "/wiki/Richard_Rush",
@@ -1112,7 +1112,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1833",
         "name": "William J. Duane",
         "start": "1833",
         "url": "/wiki/William_J._Duane",
@@ -1420,7 +1420,7 @@
     },
     "cabinet": [
       {
-        "end": null,
+        "end": "1841",
         "name": "John Tyler",
         "start": "1841",
         "url": "/wiki/John_Tyler",
@@ -1432,7 +1432,7 @@
         "position": "Vice President"
       },
       {
-        "end": null,
+        "end": "1841",
         "name": "Daniel Webster",
         "start": "1841",
         "url": "/wiki/Daniel_Webster",
@@ -1444,7 +1444,7 @@
         "position": "Secretary of State"
       },
       {
-        "end": null,
+        "end": "1841",
         "name": "Thomas Ewing",
         "start": "1841",
         "url": "/wiki/Thomas_Ewing",
@@ -1456,7 +1456,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1841",
         "name": "John Bell",
         "start": "1841",
         "url": "/wiki/John_Bell_(Tennessee_politician)",
@@ -1468,7 +1468,7 @@
         "position": "Secretary of War"
       },
       {
-        "end": null,
+        "end": "1841",
         "name": "John J. Crittenden",
         "start": "1841",
         "url": "/wiki/John_J._Crittenden",
@@ -1480,7 +1480,7 @@
         "position": "Attorney General"
       },
       {
-        "end": null,
+        "end": "1841",
         "name": "Francis Granger",
         "start": "1841",
         "url": "/wiki/Francis_Granger",
@@ -1492,7 +1492,7 @@
         "position": "Postmaster General"
       },
       {
-        "end": null,
+        "end": "1841",
         "name": "George Edmund Badger",
         "start": "1841",
         "url": "/wiki/George_Edmund_Badger",
@@ -1550,7 +1550,7 @@
         "position": "Secretary of State"
       },
       {
-        "end": null,
+        "end": "1841",
         "name": "Thomas Ewing",
         "start": "1841",
         "url": "/wiki/Thomas_Ewing",
@@ -1598,7 +1598,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1841",
         "name": "John Bell",
         "start": "1841",
         "url": "/wiki/John_Bell_(Tennessee_politician)",
@@ -1646,7 +1646,7 @@
         "position": "Secretary of War"
       },
       {
-        "end": null,
+        "end": "1841",
         "name": "John J. Crittenden",
         "start": "1841",
         "url": "/wiki/John_J._Crittenden",
@@ -1682,7 +1682,7 @@
         "position": "Attorney General"
       },
       {
-        "end": null,
+        "end": "1841",
         "name": "Francis Granger",
         "start": "1841",
         "url": "/wiki/Francis_Granger",
@@ -1706,7 +1706,7 @@
         "position": "Postmaster General"
       },
       {
-        "end": null,
+        "end": "1841",
         "name": "George Edmund Badger",
         "start": "1841",
         "url": "/wiki/George_Edmund_Badger",
@@ -1742,7 +1742,7 @@
         "position": "Secretary of the Navy"
       },
       {
-        "end": null,
+        "end": "1844",
         "name": "Thomas Walker Gilmer",
         "start": "1844",
         "url": "/wiki/Thomas_Walker_Gilmer",
@@ -2012,7 +2012,7 @@
     },
     "cabinet": [
       {
-        "end": null,
+        "end": "1850",
         "name": "John M. Clayton",
         "start": "1850",
         "url": "/wiki/John_M._Clayton",
@@ -2048,7 +2048,7 @@
         "position": "Secretary of State"
       },
       {
-        "end": null,
+        "end": "1850",
         "name": "William M. Meredith",
         "start": "1850",
         "url": "/wiki/William_M._Meredith",
@@ -2072,7 +2072,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1850",
         "name": "George W. Crawford",
         "start": "1850",
         "url": "/wiki/George_W._Crawford",
@@ -2096,7 +2096,7 @@
         "position": "Secretary of War"
       },
       {
-        "end": null,
+        "end": "1850",
         "name": "Reverdy Johnson",
         "start": "1850",
         "url": "/wiki/Reverdy_Johnson",
@@ -2120,7 +2120,7 @@
         "position": "Attorney General"
       },
       {
-        "end": null,
+        "end": "1850",
         "name": "Jacob Collamer",
         "start": "1850",
         "url": "/wiki/Jacob_Collamer",
@@ -2156,7 +2156,7 @@
         "position": "Postmaster General"
       },
       {
-        "end": null,
+        "end": "1850",
         "name": "William Ballard Preston",
         "start": "1850",
         "url": "/wiki/William_Ballard_Preston",
@@ -2192,7 +2192,7 @@
         "position": "Secretary of the Navy"
       },
       {
-        "end": null,
+        "end": "1850",
         "name": "Thomas Ewing",
         "start": "1850",
         "url": "/wiki/Thomas_Ewing",
@@ -2204,7 +2204,7 @@
         "position": "Secretary of the Interior"
       },
       {
-        "end": null,
+        "end": "1850",
         "name": "Thomas McKean Thompson McKennan",
         "start": "1850",
         "url": "/wiki/Thomas_McKean_Thompson_McKennan",
@@ -2238,7 +2238,7 @@
     },
     "cabinet": [
       {
-        "end": null,
+        "end": "1853",
         "name": "William R. King",
         "start": "1853",
         "url": "/wiki/William_R._King",
@@ -2404,7 +2404,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1861",
         "name": "John Adams Dix",
         "start": "1861",
         "url": "/wiki/John_Adams_Dix",
@@ -2488,7 +2488,7 @@
         "position": "Postmaster General"
       },
       {
-        "end": null,
+        "end": "1861",
         "name": "Horatio King",
         "start": "1861",
         "url": "/wiki/Horatio_King",
@@ -2546,7 +2546,7 @@
         "position": "Vice President"
       },
       {
-        "end": null,
+        "end": "1865",
         "name": "Andrew Johnson",
         "start": "1865",
         "url": "/wiki/Andrew_Johnson",
@@ -2594,7 +2594,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1865",
         "name": "Hugh McCulloch",
         "start": "1865",
         "url": "/wiki/Hugh_McCulloch",
@@ -2844,7 +2844,7 @@
         "position": "Secretary of the Navy"
       },
       {
-        "end": null,
+        "end": "1865",
         "name": "John Palmer Usher",
         "start": "1865",
         "url": "/wiki/John_Palmer_Usher",
@@ -2914,7 +2914,7 @@
         "position": "Vice President"
       },
       {
-        "end": null,
+        "end": "1869",
         "name": "Elihu B. Washburne",
         "start": "1869",
         "url": "/wiki/Elihu_B._Washburne",
@@ -2986,7 +2986,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1869",
         "name": "John Aaron Rawlins",
         "start": "1869",
         "url": "/wiki/John_Aaron_Rawlins",
@@ -3010,7 +3010,7 @@
         "position": "Secretary of War"
       },
       {
-        "end": null,
+        "end": "1876",
         "name": "Alphonso Taft",
         "start": "1876",
         "url": "/wiki/Alphonso_Taft",
@@ -3106,7 +3106,7 @@
         "position": "Postmaster General"
       },
       {
-        "end": null,
+        "end": "1874",
         "name": "James William Marshall",
         "start": "1874",
         "url": "/wiki/James_William_Marshall",
@@ -3142,7 +3142,7 @@
         "position": "Postmaster General"
       },
       {
-        "end": null,
+        "end": "1869",
         "name": "Adolph E. Borie",
         "start": "1869",
         "url": "/wiki/Adolph_E._Borie",
@@ -3320,7 +3320,7 @@
         "position": "Secretary of the Navy"
       },
       {
-        "end": null,
+        "end": "1881",
         "name": "Nathan Goff, Jr.",
         "start": "1881",
         "url": "/wiki/Nathan_Goff,_Jr.",
@@ -3354,7 +3354,7 @@
     },
     "cabinet": [
       {
-        "end": null,
+        "end": "1881",
         "name": "Chester A. Arthur",
         "start": "1881",
         "url": "/wiki/Chester_A._Arthur",
@@ -3366,7 +3366,7 @@
         "position": "Vice President"
       },
       {
-        "end": null,
+        "end": "1881",
         "name": "James G. Blaine",
         "start": "1881",
         "url": "/wiki/James_G._Blaine",
@@ -3378,7 +3378,7 @@
         "position": "Secretary of State"
       },
       {
-        "end": null,
+        "end": "1881",
         "name": "William Windom",
         "start": "1881",
         "url": "/wiki/William_Windom",
@@ -3390,7 +3390,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1881",
         "name": "Robert Todd Lincoln",
         "start": "1881",
         "url": "/wiki/Robert_Todd_Lincoln",
@@ -3402,7 +3402,7 @@
         "position": "Secretary of War"
       },
       {
-        "end": null,
+        "end": "1881",
         "name": "Wayne MacVeagh",
         "start": "1881",
         "url": "/wiki/Wayne_MacVeagh",
@@ -3414,7 +3414,7 @@
         "position": "Attorney General"
       },
       {
-        "end": null,
+        "end": "1881",
         "name": "Thomas Lemuel James",
         "start": "1881",
         "url": "/wiki/Thomas_Lemuel_James",
@@ -3426,7 +3426,7 @@
         "position": "Postmaster General"
       },
       {
-        "end": null,
+        "end": "1881",
         "name": "William H. Hunt",
         "start": "1881",
         "url": "/wiki/William_H._Hunt",
@@ -3438,7 +3438,7 @@
         "position": "Secretary of the Navy"
       },
       {
-        "end": null,
+        "end": "1881",
         "name": "Samuel J. Kirkwood",
         "start": "1881",
         "url": "/wiki/Samuel_J._Kirkwood",
@@ -3460,7 +3460,7 @@
     },
     "cabinet": [
       {
-        "end": null,
+        "end": "1881",
         "name": "James G. Blaine",
         "start": "1881",
         "url": "/wiki/James_G._Blaine",
@@ -3484,7 +3484,7 @@
         "position": "Secretary of State"
       },
       {
-        "end": null,
+        "end": "1881",
         "name": "William Windom",
         "start": "1881",
         "url": "/wiki/William_Windom",
@@ -3508,7 +3508,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1884",
         "name": "Walter Q. Gresham",
         "start": "1884",
         "url": "/wiki/Walter_Q._Gresham",
@@ -3544,7 +3544,7 @@
         "position": "Secretary of War"
       },
       {
-        "end": null,
+        "end": "1881",
         "name": "Wayne MacVeagh",
         "start": "1881",
         "url": "/wiki/Wayne_MacVeagh",
@@ -3568,7 +3568,7 @@
         "position": "Attorney General"
       },
       {
-        "end": null,
+        "end": "1881",
         "name": "Thomas Lemuel James",
         "start": "1881",
         "url": "/wiki/Thomas_Lemuel_James",
@@ -3674,7 +3674,7 @@
     },
     "cabinet": [
       {
-        "end": null,
+        "end": "1885",
         "name": "Thomas A. Hendricks",
         "start": "1885",
         "url": "/wiki/Thomas_A._Hendricks",
@@ -3806,7 +3806,7 @@
         "position": "Secretary of the Interior"
       },
       {
-        "end": null,
+        "end": "1889",
         "name": "Norman Jay Coleman",
         "start": "1889",
         "url": "/wiki/Norman_Jay_Coleman",
@@ -4160,7 +4160,7 @@
         "position": "Vice President"
       },
       {
-        "end": null,
+        "end": "1901",
         "name": "Theodore Roosevelt",
         "start": "1901",
         "url": "/wiki/Theodore_Roosevelt",
@@ -4184,7 +4184,7 @@
         "position": "Secretary of State"
       },
       {
-        "end": null,
+        "end": "1898",
         "name": "William R. Day",
         "start": "1898",
         "url": "/wiki/William_R._Day",
@@ -4268,7 +4268,7 @@
         "position": "Attorney General"
       },
       {
-        "end": null,
+        "end": "1901",
         "name": "Philander C. Knox",
         "start": "1901",
         "url": "/wiki/Philander_C._Knox",
@@ -4398,7 +4398,7 @@
         "position": "Secretary of State"
       },
       {
-        "end": null,
+        "end": "1909",
         "name": "Robert Bacon",
         "start": "1909",
         "url": "/wiki/Robert_Bacon",
@@ -5232,7 +5232,7 @@
         "position": "Postmaster General"
       },
       {
-        "end": null,
+        "end": "1923",
         "name": "Harry Stewart New",
         "start": "1923",
         "url": "/wiki/Harry_Stewart_New",
@@ -5268,7 +5268,7 @@
         "position": "Secretary of the Interior"
       },
       {
-        "end": null,
+        "end": "1923",
         "name": "Hubert Work",
         "start": "1923",
         "url": "/wiki/Hubert_Work",
@@ -5588,7 +5588,7 @@
         "position": "Vice President"
       },
       {
-        "end": null,
+        "end": "1929",
         "name": "Frank B. Kellogg",
         "start": "1929",
         "url": "/wiki/Frank_B._Kellogg",
@@ -5636,7 +5636,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1929",
         "name": "James William Good",
         "start": "1929",
         "url": "/wiki/James_William_Good",
@@ -5802,7 +5802,7 @@
         "position": "Vice President"
       },
       {
-        "end": null,
+        "end": "1945",
         "name": "Harry S. Truman",
         "start": "1945",
         "url": "/wiki/Harry_S._Truman",
@@ -5982,7 +5982,7 @@
         "position": "Secretary of the Navy"
       },
       {
-        "end": null,
+        "end": "1940",
         "name": "Charles Edison",
         "start": "1940",
         "url": "/wiki/Charles_Edison",
@@ -6090,7 +6090,7 @@
         "position": "Secretary of Commerce"
       },
       {
-        "end": null,
+        "end": "1945",
         "name": "Henry A. Wallace",
         "start": "1945",
         "url": "/wiki/Henry_A._Wallace",
@@ -6114,9 +6114,9 @@
         "position": "Secretary of Labor"
       },
       {
-        "end": null,
+        "end": "ERR",
         "name": "Black Cabinet",
-        "start": "Blac",
+        "start": "ERR",
         "url": "/wiki/Black_Cabinet",
         "personal": {
           "bday": "ERR",
@@ -6148,7 +6148,7 @@
         "position": "Vice President"
       },
       {
-        "end": null,
+        "end": "1945",
         "name": "Edward Stettinius, Jr.",
         "start": "1945",
         "url": "/wiki/Edward_Stettinius,_Jr.",
@@ -6196,7 +6196,7 @@
         "position": "Secretary of State"
       },
       {
-        "end": null,
+        "end": "1945",
         "name": "Henry Morgenthau, Jr.",
         "start": "1945",
         "url": "/wiki/Henry_Morgenthau,_Jr.",
@@ -6232,7 +6232,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1945",
         "name": "Henry L. Stimson",
         "start": "1945",
         "url": "/wiki/Henry_L._Stimson",
@@ -6256,7 +6256,7 @@
         "position": "Secretary of War"
       },
       {
-        "end": null,
+        "end": "1947",
         "name": "Kenneth Claiborne Royall",
         "start": "1947",
         "url": "/wiki/Kenneth_Claiborne_Royall",
@@ -6316,7 +6316,7 @@
         "position": "Secretary of Defense"
       },
       {
-        "end": null,
+        "end": "1945",
         "name": "Francis Biddle",
         "start": "1945",
         "url": "/wiki/Francis_Biddle",
@@ -6364,7 +6364,7 @@
         "position": "Attorney General"
       },
       {
-        "end": null,
+        "end": "1945",
         "name": "Frank Comerford Walker",
         "start": "1945",
         "url": "/wiki/Frank_Comerford_Walker",
@@ -6448,7 +6448,7 @@
         "position": "Secretary of the Interior"
       },
       {
-        "end": null,
+        "end": "1945",
         "name": "Claude R. Wickard",
         "start": "1945",
         "url": "/wiki/Claude_R._Wickard",
@@ -6520,7 +6520,7 @@
         "position": "Secretary of Commerce"
       },
       {
-        "end": null,
+        "end": "1945",
         "name": "Frances Perkins",
         "start": "1945",
         "url": "/wiki/Frances_Perkins",
@@ -6770,7 +6770,7 @@
         "position": "Secretary of Commerce"
       },
       {
-        "end": null,
+        "end": "1953",
         "name": "Martin Patrick Durkin",
         "start": "1953",
         "url": "/wiki/Martin_Patrick_Durkin",
@@ -6912,7 +6912,7 @@
         "position": "Postmaster General"
       },
       {
-        "end": null,
+        "end": "1963",
         "name": "John A. Gronouski",
         "start": "1963",
         "url": "/wiki/John_A._Gronouski",
@@ -7306,7 +7306,7 @@
         "position": "Secretary of Housing and Urban Development"
       },
       {
-        "end": null,
+        "end": "1969",
         "name": "Robert Coldwell Wood",
         "start": "1969",
         "url": "/wiki/Robert_Coldwell_Wood",
@@ -7340,9 +7340,9 @@
     },
     "cabinet": [
       {
-        "end": null,
+        "end": "ERR",
         "name": "Spiro Agnew",
-        "start": "1969",
+        "start": "ERR",
         "url": "/wiki/Spiro_Agnew",
         "personal": {
           "bday": "1918-11-09",
@@ -7352,9 +7352,9 @@
         "position": "Vice President"
       },
       {
-        "end": null,
+        "end": "ERR",
         "name": "Gerald Ford",
-        "start": "1973",
+        "start": "ERR",
         "url": "/wiki/Gerald_Ford",
         "personal": {
           "bday": "1913-07-14",
@@ -7424,7 +7424,7 @@
         "position": "Secretary of the Treasury"
       },
       {
-        "end": null,
+        "end": "1974",
         "name": "William E. Simon",
         "start": "1974",
         "url": "/wiki/William_E._Simon",
@@ -7448,7 +7448,7 @@
         "position": "Secretary of Defense"
       },
       {
-        "end": null,
+        "end": "1973",
         "name": "Elliot Richardson",
         "start": "1973",
         "url": "/wiki/Elliot_Richardson",
@@ -7496,7 +7496,7 @@
         "position": "Attorney General"
       },
       {
-        "end": null,
+        "end": "1973",
         "name": "Elliot Richardson",
         "start": "1973",
         "url": "/wiki/Elliot_Richardson",
@@ -7508,7 +7508,7 @@
         "position": "Attorney General"
       },
       {
-        "end": null,
+        "end": "1974",
         "name": "William B. Saxbe",
         "start": "1974",
         "url": "/wiki/William_B._Saxbe",
@@ -7604,9 +7604,9 @@
         "position": "Secretary of Commerce"
       },
       {
-        "end": null,
+        "end": "ERR",
         "name": "Frederick B. Dent",
-        "start": "1973",
+        "start": "ERR",
         "url": "/wiki/Frederick_B._Dent",
         "personal": {
           "bday": "1922-08-17",
@@ -7830,7 +7830,7 @@
         "position": "Secretary of the Interior"
       },
       {
-        "end": null,
+        "end": "1975",
         "name": "Stanley K. Hathaway",
         "start": "1975",
         "url": "/wiki/Stanley_K._Hathaway",
@@ -8832,9 +8832,9 @@
         "position": "Secretary of Commerce"
       },
       {
-        "end": null,
+        "end": "ERR",
         "name": "Barbara Franklin",
-        "start": "1992",
+        "start": "ERR",
         "url": "/wiki/Barbara_Franklin",
         "personal": {
           "bday": "ERR",
@@ -8844,9 +8844,9 @@
         "position": "Secretary of Commerce"
       },
       {
-        "end": null,
+        "end": "ERR",
         "name": "Elizabeth Dole",
-        "start": "1989",
+        "start": "ERR",
         "url": "/wiki/Elizabeth_Dole",
         "personal": {
           "bday": "1936-07-29",
