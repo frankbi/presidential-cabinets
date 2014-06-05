@@ -113,10 +113,47 @@ def extractCabinet(rows):
 					"position": row.find("th", {"scope":"row"}).text,
 					"url": anchor["href"],
 					"start": getStartYear(member),
-					"end": getEndYear(member)
+					"end": getEndYear(member),
+					"personal": getPersonal(anchor["href"])
 				}
 				fullCabinet.append(data)
 	return fullCabinet
+
+def getPersonal(url):
+	baseUrl = "http://en.wikipedia.org"
+	fullUrl = baseUrl + url
+	r = requests.get(fullUrl)
+	soup = BeautifulSoup(r.text)
+	return {
+		"photo": getPhoto(soup),
+		"bday": getBDay(soup),
+		"dday": getDDay(soup)
+	}
+
+def getBDay(obj):
+	bday = obj.findAll("span", {"class","bday"})
+	if len(bday) is 1:
+		return bday[0].text
+	else:
+		return "ERR"
+
+def getDDay(obj):
+	dday = obj.findAll("span", {"class","dday"})
+	if len(dday) is 1:
+		return dday[0].text
+	else:
+		return "ERR"
+
+def getPhoto(obj):
+
+	infoBox = obj.findAll("table", {"class","vcard"})
+
+	if len(infoBox) is 1:
+		imageList = infoBox[0].findAll("a", {"class","image"})
+		if bool(imageList):
+			return "http:" + imageList[0].find("img")["src"]
+		else:
+			return "ERR"
 
 if __name__ == "__main__":
 	init()
